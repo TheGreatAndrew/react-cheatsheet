@@ -8,6 +8,7 @@ import BasicState from './lessons/BasicState';
 import {CounterProvider} from './lessons/useContextUseReducer/CounterContext';
 import CounterComponent from './lessons/useContextUseReducer/CounterComponent';
 import SumCalculator from './lessons/useEffectMemoRef/SumCalculator';
+import MyRef from './lessons/MyRef';
 
 function App() {
   const items = ["Item 1", "Item 2", "Item 3"];
@@ -28,7 +29,10 @@ function App() {
       {/* <CounterProvider>
         <CounterComponent/>
       </CounterProvider>
+
       <SumCalculator/> */}
+
+      <MyRef/>
 
       </header>
     </div>
